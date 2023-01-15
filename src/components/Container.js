@@ -11,6 +11,7 @@ export default function Container() {
     return (
         <>
         <Navbar />
+        <Hero />
         </>
     );
 };
