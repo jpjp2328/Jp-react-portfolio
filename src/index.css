@@ -314,3 +314,182 @@ footer ul li a:hover {
 footer ul li a:hover::after{
   width: 100%;
 }
+
+/* Media Query*/
+
+@media screen and (max-width: 1280px){
+
+
+  .coming-soon{
+      justify-content: space-between;
+      flex-direction: column;
+      flex: 100%;
+      margin: 0 auto 20px;
+  }
+
+  .more-coming-soon{
+      flex: 100%;
+  }
+  .work-content .main-work img{
+      height: 250px;
+      min-height: 450px;
+      transition: 0.5s;
+  }
+  .work-content .coming-soon img{
+      height: 200px;
+      min-width: 250px;
+      width: 100%;
+      transition: 0.5s;
+  }
+  .work-content .more-coming-soon img{
+      height: 200px;
+      min-width: 250px;
+      width: 100%;
+      transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 1030px){
+  footer ul li{
+      width: 30%;
+      font-size: 20px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .left img{
+      height: 400px;
+      width: 250px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .right p{
+      font-size: 18px;
+      transition: 0.5s;
+  }
+}
+
+@media screen and (max-width: 832px){
+
+  nav {
+      float:none     
+  }
+
+  .about .about-content .left img{
+      height: 300px;
+      width: 200px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .right p{
+      font-size: 16px;
+      transition: 0.5s;
+  }
+
+}
+
+@media screen and (max-width: 685px){
+  .work-content .main-work img{
+      height: 200px;
+      min-height: 250px;
+      transition: 0.5s;
+  }
+  .about .about-content .right p{
+      font-size: 14px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .column{
+      width: 100%;
+      transition: 0.5s;
+  }
+  .about .about-content .left{
+      display: flex;
+      justify-content: center;
+      margin-bottom: 40px;
+      transition: 0.5s;
+  
+  }
+  .about .about-content .right{
+      flex: 100%;
+      transition: 0.5s;
+  }
+
+}
+
+@media screen and (max-width: 400px){
+  header {
+      text-align: center;
+  }
+  nav {
+      font-size: 14px;
+  }
+  .home{
+      height: 600px;
+      transition: 0.5s;
+  }
+  .home .welcome h2{
+      font-size: 34px;
+      transition: 0.5s;
+  }
+  .about h3{
+      font-size: 32px;
+      transition: 0.5s;
+  }
+  .about h3::before{
+      width: 135px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .left img{
+      height: 250px;
+      width: 150px;
+      transition: 0.5s;
+  }
+
+  .about .about-content .right p{
+      font-size: 12px;
+      transition: 0.5s;
+  }
+
+  article h4{
+      font-size: 32px;
+      transition: 0.5s;
+  }
+  
+  article h4::before{
+      width: 80px;
+      transition: 0.5s;
+  }
+  .work-content .main-work img{
+      height: 120px;
+      min-height: 150px;
+      transition: 0.5s;
+  }
+  .work-content .coming-soon img{
+      height: 120px;
+      min-width: 150px;
+      width: 100%;
+      transition: 0.5s;
+  }
+  .work-content .more-coming-soon img{
+      height: 120px;
+      min-width: 150px;
+      width: 100%;
+      transition: 0.5s;
+  }
+  footer h6{
+      font-size: 24px;
+      transition: 0.5s;
+  }
+  
+  footer h6::before{
+      width: 120px;
+      transition: 0.5s;
+  }
+
+  footer ul li{
+      width: 28%;
+      font-size: 14px;
+      transition: 0.5s;
+  }
+}
