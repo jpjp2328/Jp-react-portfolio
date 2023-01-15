@@ -1,6 +1,7 @@
 import React from 'react';
 import citySpire from '../assets/images/Cityspire.gif';
 import comingSoon from '../assets/images/coming-soon.jpg';
+import comingSoon1 from '../assets/images/coming-soon1.jpg';
 
 function Work() {
     return (
@@ -31,7 +32,7 @@ function Work() {
                     <div className="more-coming-soon">
                         <a href="#work">
                             <figure>
-                                <img src={comingSoon} alt="Coming Soon" />
+                                <img src={comingSoon1} alt="Coming Soon" />
                                 <figcaption>
                                     <h5>Coming Soon</h5>
                                 </figcaption>
