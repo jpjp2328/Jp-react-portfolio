@@ -1,4 +1,6 @@
 import React from 'react';
+import citySpire from '../assets/images/Cityspire.gif';
+import comingSoon from '../assets/images/coming-soon.jpg';
 
 function Work() {
     return (
@@ -9,7 +11,7 @@ function Work() {
                     <div className="main-work">
                         <a href="https://jpjp2328.github.io/Cityspire/">
                             <figure>
-                                <img src="./assets/images/Cityspire.gif" alt="Cityspire gif" />
+                                <img src={citySpire} alt="Cityspire gif" />
                                 <figcaption>
                                     <h5>Collaborative Project: Cityspire</h5>
                                 </figcaption>
@@ -19,7 +21,7 @@ function Work() {
                     <div className="coming-soon">
                         <a href="#work">
                             <figure>
-                                <img src="./assets/images/coming-soon.jpg" alt="Coming Soon" />
+                                <img src={comingSoon} alt="Coming Soon" />
                                 <figcaption>
                                     <h5>Coming Soon...</h5>
                                 </figcaption>
@@ -29,7 +31,7 @@ function Work() {
                     <div className="more-coming-soon">
                         <a href="#work">
                             <figure>
-                                <img src="./assets/images/coming-soon.jpg" alt="Coming Soon" />
+                                <img src={comingSoon} alt="Coming Soon" />
                                 <figcaption>
                                     <h5>Coming Soon</h5>
                                 </figcaption>
