@@ -3,10 +3,10 @@ import React from 'react';
 function Work() {
     return (
         <article id="work">
-            <div class="container">
+            <div className="container">
                 <h4> Work </h4>
-                <div class="work-content">
-                    <div class="main-work">
+                <div className="work-content">
+                    <div className="main-work">
                         <a href="https://jpjp2328.github.io/Cityspire/">
                             <figure>
                                 <img src="./assets/images/Cityspire.gif" alt="Cityspire gif" />
@@ -16,7 +16,7 @@ function Work() {
                             </figure>
                         </a>
                     </div>
-                    <div class="coming-soon">
+                    <div className="coming-soon">
                         <a href="#work">
                             <figure>
                                 <img src="./assets/images/coming-soon.jpg" alt="Coming Soon" />
@@ -26,7 +26,7 @@ function Work() {
                             </figure>
                         </a>
                     </div>
-                    <div class="more-coming-soon">
+                    <div className="more-coming-soon">
                         <a href="#work">
                             <figure>
                                 <img src="./assets/images/coming-soon.jpg" alt="Coming Soon" />
