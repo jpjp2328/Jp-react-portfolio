@@ -3,10 +3,10 @@ import React from 'react';
 function Navbar() {
     return (
         <header> 
-        <h1><span class="titlecolor">My</span> Portfo<span class="titlecolor">lio.</span></h1>
+        <h1><span className="titlecolor">My</span> Portfo<span className="titlecolor">lio.</span></h1>
 
         <nav>
-            <div class="container">
+            <div className="container">
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#about-me">About me</a></li>
