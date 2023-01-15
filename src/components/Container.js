@@ -13,6 +13,7 @@ export default function Container() {
         <Navbar />
         <Hero />
         <About />
+        <Work />
         </>
     );
 };
