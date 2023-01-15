@@ -14,6 +14,7 @@ export default function Container() {
         <Hero />
         <About />
         <Work />
+        <Footer />
         </>
     );
 };
