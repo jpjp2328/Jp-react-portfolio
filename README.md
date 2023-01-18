@@ -18,7 +18,7 @@ Built a single page Portfolio using React. Includes Header/Navbar, Hero, About M
 - N/A
 
 ## Usage
-Deployed Application - https://jpjp2328.github.io/jp-react-portfolio
+Deployed Application - https://jpjp2328.github.io/Jp-react-portfolio
 
 ## Demo
 - Screenshot of Application
