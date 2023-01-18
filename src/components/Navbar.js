@@ -2,16 +2,16 @@ import React from 'react';
 
 function Navbar({ currentPage, handlePageChange }) {
 
-    const mybutton = document.getElementById("myBtn");
+    const topButton = document.getElementById("myBtn");
 
     // When the user scrolls down, show the button
     window.onscroll = function () { scrollFunction() };
 
     function scrollFunction() {
         if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            mybutton.style.display = "block";
+            topButton.style.display = "block";
         } else {
-            mybutton.style.display = "none";
+            topButton.style.display = "none";
         }
     }
     // function to return to top
