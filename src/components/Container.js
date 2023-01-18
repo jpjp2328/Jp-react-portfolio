@@ -7,14 +7,27 @@ import ContactForm from './ContactForm';
 import Footer from './Footer';
 
 export default function Container() {
+    const [currentPage, setCurrentPage] = useState('About');
+
+    const renderPage = () => {
+        if (currentPage === 'About') {
+            return <About />;
+        }
+        if (currentPage === 'Work') {
+            return <Work />;
+        }
+        if (currentPage === 'ContactForm') {
+            return <ContactForm />;
+        }
+    };
+
+    const handlePageChange = (page) => setCurrentPage(page)
 
     return (
         <>
-        <Navbar />
+        <Navbar currentPage={currentPage} handlePageChange={handlePageChange} />
         <Hero />
-        <About />
-        <Work />
-        <ContactForm />
+        {renderPage()}
         <Footer />
         </>
     );

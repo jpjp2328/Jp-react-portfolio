@@ -3,7 +3,7 @@ import React from 'react';
 function ContactForm() {
     return (
         <div>
-            <div className="container">
+            <div className="container" id="contact-form">
                 <h7> Contact Me...</h7>
                 <form>
                     <label>Name</label>
