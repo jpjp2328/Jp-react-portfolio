@@ -284,25 +284,49 @@ input[type=submit]:hover {
   background-color: #ccc;
 }
 
+/*
 .form-container {
   padding-top: 10px;
   padding-bottom: 10px;
   padding-left: 500px;
   padding-right: 500px;
 }
+*/
 
-.form-container p {
+.container p {
   text-align: right;
   display: inline-block;
   padding: 10px;
 }
 
-.form-container textarea {
+.container textarea {
   height: 200px;
 }
 
 #submit-button {
   float: right;
+}
+
+.container h7 {
+  font-size: 42px;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.container h7::before{
+  content: "";
+  width: 240px;
+  height: 3px;
+  background: #008fb3;
+  position: absolute;
+  bottom: -3px;
+}
+
+form {
+  padding: 20px;
 }
 
 /*Contact Footer styling*/
