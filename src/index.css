@@ -258,6 +258,53 @@ article .work-content{
   transition: 0.5s;
 }
 
+/*Contact Form Styling*/
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px; 
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] {
+  background-color: #008fb3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #ccc;
+}
+
+.form-container {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 500px;
+  padding-right: 500px;
+}
+
+.form-container p {
+  text-align: right;
+  display: inline-block;
+  padding: 10px;
+}
+
+.form-container textarea {
+  height: 200px;
+}
+
+#submit-button {
+  float: right;
+}
+
 /*Contact Footer styling*/
 
 footer{

@@ -39,6 +39,26 @@ function Work() {
                             </figure>
                         </a>
                     </div>
+                    <div className="coming-soon">
+                        <a href="#work">
+                            <figure>
+                                <img src={comingSoon} alt="Coming Soon" />
+                                <figcaption>
+                                    <h5>Coming Soon...</h5>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
+                    <div className="more-coming-soon">
+                        <a href="#work">
+                            <figure>
+                                <img src={comingSoon1} alt="Coming Soon" />
+                                <figcaption>
+                                    <h5>Coming Soon</h5>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
                 </div>
             </div>
         </article>

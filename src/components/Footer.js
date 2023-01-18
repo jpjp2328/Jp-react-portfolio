@@ -3,7 +3,7 @@ import React from 'react';
 function Footer() {
     return (
         <footer id="more-info">
-            <div class="container">
+            <div className="container">
                 <h6>More Info...</h6>
                 <ul>
                     <li><a href="https://github.com/jpjp2328">GitHub</a></li>
