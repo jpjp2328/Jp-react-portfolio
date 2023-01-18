@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/jp-react-portfolio/static/css/main.0b9b26fc.css",
-    "main.js": "/jp-react-portfolio/static/js/main.3550e3d2.js",
-    "static/js/787.37612ff5.chunk.js": "/jp-react-portfolio/static/js/787.37612ff5.chunk.js",
-    "static/media/Cityspire.gif": "/jp-react-portfolio/static/media/Cityspire.7f4b77b93b1b019685f8.gif",
-    "static/media/background.jpg": "/jp-react-portfolio/static/media/background.a93d28a18382398b07e7.jpg",
-    "static/media/avatar.jpg": "/jp-react-portfolio/static/media/avatar.7c38af6b505d782ca665.jpg",
-    "static/media/social-network-api.png": "/jp-react-portfolio/static/media/social-network-api.0b923a4fa667ea72f0c2.png",
-    "static/media/e-commerce-backend.png": "/jp-react-portfolio/static/media/e-commerce-backend.58f1904774a73c2c1f2f.png",
-    "static/media/pwa-text-editor.png": "/jp-react-portfolio/static/media/pwa-text-editor.0bc25d1d40c9aadbbca4.png",
-    "static/media/tech-blog.png": "/jp-react-portfolio/static/media/tech-blog.f41eada36545586d2616.png",
-    "index.html": "/jp-react-portfolio/index.html",
-    "main.0b9b26fc.css.map": "/jp-react-portfolio/static/css/main.0b9b26fc.css.map",
-    "main.3550e3d2.js.map": "/jp-react-portfolio/static/js/main.3550e3d2.js.map",
-    "787.37612ff5.chunk.js.map": "/jp-react-portfolio/static/js/787.37612ff5.chunk.js.map"
+    "main.css": "/Jp-react-portfolio/static/css/main.ab56e566.css",
+    "main.js": "/Jp-react-portfolio/static/js/main.f7235c6a.js",
+    "static/js/787.37612ff5.chunk.js": "/Jp-react-portfolio/static/js/787.37612ff5.chunk.js",
+    "static/media/Cityspire.gif": "/Jp-react-portfolio/static/media/Cityspire.7f4b77b93b1b019685f8.gif",
+    "static/media/background.jpg": "/Jp-react-portfolio/static/media/background.a93d28a18382398b07e7.jpg",
+    "static/media/avatar.jpg": "/Jp-react-portfolio/static/media/avatar.7c38af6b505d782ca665.jpg",
+    "static/media/social-network-api.png": "/Jp-react-portfolio/static/media/social-network-api.0b923a4fa667ea72f0c2.png",
+    "static/media/e-commerce-backend.png": "/Jp-react-portfolio/static/media/e-commerce-backend.58f1904774a73c2c1f2f.png",
+    "static/media/pwa-text-editor.png": "/Jp-react-portfolio/static/media/pwa-text-editor.0bc25d1d40c9aadbbca4.png",
+    "static/media/tech-blog.png": "/Jp-react-portfolio/static/media/tech-blog.f41eada36545586d2616.png",
+    "index.html": "/Jp-react-portfolio/index.html",
+    "main.ab56e566.css.map": "/Jp-react-portfolio/static/css/main.ab56e566.css.map",
+    "main.f7235c6a.js.map": "/Jp-react-portfolio/static/js/main.f7235c6a.js.map",
+    "787.37612ff5.chunk.js.map": "/Jp-react-portfolio/static/js/787.37612ff5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0b9b26fc.css",
-    "static/js/main.3550e3d2.js"
+    "static/css/main.ab56e566.css",
+    "static/js/main.f7235c6a.js"
   ]
 }
