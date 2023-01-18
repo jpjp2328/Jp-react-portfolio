@@ -1,7 +1,9 @@
 import React from 'react';
 import citySpire from '../assets/images/Cityspire.gif';
-import comingSoon from '../assets/images/coming-soon.jpg';
-import comingSoon1 from '../assets/images/coming-soon1.jpg';
+import techBlog from '../assets/images/tech-blog.png';
+import socialApi from '../assets/images/social-network-api.png';
+import eCommerce from '../assets/images/e-commerce-backend.png';
+import textEditor from '../assets/images/pwa-text-editor.png';
 
 function Work() {
     return (
@@ -20,31 +22,31 @@ function Work() {
                         </a>
                     </div>
                     <div className="coming-soon">
-                        <a href="#work">
+                        <a href="https://github.com/jpjp2328/tech-blog">
                             <figure>
-                                <img src={comingSoon} alt="Coming Soon" />
+                                <img src={techBlog} alt="Tech Blog" />
                                 <figcaption>
-                                    <h5>Coming Soon...</h5>
+                                    <h5>Tech Blog: Users can create an account to post articles or comment on other users posts.</h5>
                                 </figcaption>
                             </figure>
                         </a>
                     </div>
                     <div className="more-coming-soon">
-                        <a href="#work">
+                        <a href="https://github.com/jpjp2328/social-network-API">
                             <figure>
-                                <img src={comingSoon1} alt="Coming Soon" />
+                                <img src={socialApi} alt="Social network API" />
                                 <figcaption>
-                                    <h5>Coming Soon</h5>
+                                    <h5>Social Network API: Tested through Insomia</h5>
                                 </figcaption>
                             </figure>
                         </a>
                     </div>
                     <div className="coming-soon">
-                        <a href="#work">
+                        <a href="https://github.com/jpjp2328/E-Commerce-Back-End">
                             <figure>
-                                <img src={comingSoon} alt="Coming Soon" />
+                                <img src={eCommerce} alt="E-Commerce backend" />
                                 <figcaption>
-                                    <h5>Coming Soon...</h5>
+                                    <h5>E-Commerce Backend: Tested through Insomia</h5>
                                 </figcaption>
                             </figure>
                         </a>
@@ -52,9 +54,9 @@ function Work() {
                     <div className="more-coming-soon">
                         <a href="#work">
                             <figure>
-                                <img src={comingSoon1} alt="Coming Soon" />
+                                <img src={textEditor} alt="PWA Text Editor" />
                                 <figcaption>
-                                    <h5>Coming Soon</h5>
+                                    <h5>PWA Text Editor</h5>
                                 </figcaption>
                             </figure>
                         </a>

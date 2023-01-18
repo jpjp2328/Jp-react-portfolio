@@ -27,6 +27,7 @@ function ContactForm() {
                 modal.style.display = "none"
             }
         } */
+
     function alertMessage() {
         alert("Unfortunately this feature is currently unavailable, Please email me instead under More Info.. Thank you")
     }

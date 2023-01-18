@@ -30,7 +30,7 @@ function Navbar({ currentPage, handlePageChange }) {
                         <li><a href="#about-me" onClick={() => handlePageChange('About')} className={currentPage === 'About' ? 'active-button' : 'button'} >About me</a></li>
                         <li><a href="#work" onClick={() => handlePageChange('Work')} className={currentPage === 'Work' ? 'active-button' : 'button'} >Work</a></li>
                         <li><a href="#contact-form" onClick={() => handlePageChange('ContactForm')} className={currentPage === 'ContactForm' ? 'active-button' : 'button'} >Contact me</a></li>
-                        <li><a href="#resume-button" onClick={() => handlePageChange('ContactForm')} className={currentPage === 'ContactForm' ? 'active-button' : 'button'} >Resume</a></li>
+                        <li><a href="#contact-form" onClick={() => handlePageChange('ContactForm')} className={currentPage === 'ContactForm' ? 'active-button' : 'button'} >Resume</a></li>
                     </ul>
                 </div>
             </nav>
