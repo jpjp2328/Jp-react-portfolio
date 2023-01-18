@@ -34,8 +34,8 @@ function ContactForm() {
 
     return (
         <div>
+            <div className="contact-header"> Contact Me...</div>
             <div className="container" id="contact-form">
-                <h7> Contact Me...</h7>
                 <form>
                     <label>Name</label>
                     <input type="text" id="contact-name" name="name" placeholder="Your name.."></input>

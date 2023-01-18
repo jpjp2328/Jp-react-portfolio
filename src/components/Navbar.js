@@ -2,18 +2,20 @@ import React from 'react';
 
 function Navbar({ currentPage, handlePageChange }) {
 
-    const topButton = document.getElementById("myBtn");
+    window.onload = function () {
+        const topButton = document.getElementById("myBtn");
 
-    // When the user scrolls down, show the button
-    window.onscroll = function () { scrollFunction() };
+        // When the user scrolls down, show the button
+        window.onscroll = function () { scrollFunction() };
 
-    function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-            topButton.style.display = "block";
-        } else {
-            topButton.style.display = "none";
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                topButton.style.display = "block";
+            } else {
+                topButton.style.display = "none";
+            }
         }
-    }
+    };
     // function to return to top
     function topFunction() {
         document.body.scrollTop = 0;
