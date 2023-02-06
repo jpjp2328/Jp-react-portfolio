@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/Jp-react-portfolio/static/css/main.ab56e566.css",
-    "main.js": "/Jp-react-portfolio/static/js/main.f7235c6a.js",
+    "main.js": "/Jp-react-portfolio/static/js/main.5981be67.js",
     "static/js/787.37612ff5.chunk.js": "/Jp-react-portfolio/static/js/787.37612ff5.chunk.js",
+    "static/media/post-demo.gif": "/Jp-react-portfolio/static/media/post-demo.c6e089f5b75ccd00aae5.gif",
     "static/media/Cityspire.gif": "/Jp-react-portfolio/static/media/Cityspire.7f4b77b93b1b019685f8.gif",
     "static/media/background.jpg": "/Jp-react-portfolio/static/media/background.a93d28a18382398b07e7.jpg",
     "static/media/avatar.jpg": "/Jp-react-portfolio/static/media/avatar.7c38af6b505d782ca665.jpg",
@@ -12,11 +13,11 @@
     "static/media/tech-blog.png": "/Jp-react-portfolio/static/media/tech-blog.f41eada36545586d2616.png",
     "index.html": "/Jp-react-portfolio/index.html",
     "main.ab56e566.css.map": "/Jp-react-portfolio/static/css/main.ab56e566.css.map",
-    "main.f7235c6a.js.map": "/Jp-react-portfolio/static/js/main.f7235c6a.js.map",
+    "main.5981be67.js.map": "/Jp-react-portfolio/static/js/main.5981be67.js.map",
     "787.37612ff5.chunk.js.map": "/Jp-react-portfolio/static/js/787.37612ff5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ab56e566.css",
-    "static/js/main.f7235c6a.js"
+    "static/js/main.5981be67.js"
   ]
 }
