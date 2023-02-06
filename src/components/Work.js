@@ -23,7 +23,7 @@ function Work() {
                         </a>
                     </div>
                     <div className="main-work">
-                        <a href="https://jpjp2328.github.io/Cityspire/">
+                        <a href="https://github.com/jpjp2328/Cityspire/">
                             <figure>
                                 <img src={citySpire} alt="Cityspire gif" />
                                 <figcaption>
