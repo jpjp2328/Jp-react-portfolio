@@ -4,6 +4,7 @@ import techBlog from '../assets/images/tech-blog.png';
 import socialApi from '../assets/images/social-network-api.png';
 import eCommerce from '../assets/images/e-commerce-backend.png';
 import textEditor from '../assets/images/pwa-text-editor.png';
+import postDemo from '../assets/images/post-demo.gif';
 
 function Work() {
     return (
@@ -11,6 +12,16 @@ function Work() {
             <div className="container">
                 <h4> Work </h4>
                 <div className="work-content">
+                <div className="main-work">
+                        <a href="https://github.com/jpjp2328/project-03">
+                            <figure>
+                                <img src={postDemo} alt="PostItMart gif" />
+                                <figcaption>
+                                    <h5>MERN FullStack Project: PostItMart</h5>
+                                </figcaption>
+                            </figure>
+                        </a>
+                    </div>
                     <div className="main-work">
                         <a href="https://jpjp2328.github.io/Cityspire/">
                             <figure>
